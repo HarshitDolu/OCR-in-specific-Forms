@@ -60,7 +60,39 @@ ORB is basically a fusion of FAST keypoint detector and BRIEF descriptor with ma
 
 ### Demo images
 
+finding coordinates of ROI using region selector.py
 
+<img src="https://github.com/HarshitDolu/OCR-in-specific-Forms/blob/main/demo/7.png" width="800">
+
+
+Comapred descriptors of test and query forms and drawn Good match using Bf Matcher
+
+<img src="https://github.com/HarshitDolu/OCR-in-specific-Forms/blob/main/demo/1.png" width="800">
+
+
+Performed WarpPerspective transform to make orientation and rotation of test same as query forms
+
+<img src="https://github.com/HarshitDolu/OCR-in-specific-Forms/blob/main/demo/2.png" width="800">
+
+
+highlighted the ROI using image masking
+
+<img src="https://github.com/HarshitDolu/OCR-in-specific-Forms/blob/main/demo/3.png" width="800">
+
+
+cropped ROI using image cropping
+
+<img src="https://github.com/HarshitDolu/OCR-in-specific-Forms/blob/main/demo/4.png" width="800">
+
+
+pytesseract image to string method over cropped image and putText method to display it on the form.
+
+<img src="https://github.com/HarshitDolu/OCR-in-specific-Forms/blob/main/demo/5.png" width="800">
+
+
+printing extracted text on python terminal 
+
+<img src="https://github.com/HarshitDolu/OCR-in-specific-Forms/blob/main/demo/6.png" width="800">
 
 
 
